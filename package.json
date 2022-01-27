@@ -30,7 +30,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "npm run tsc && ts-node dist/server.js",
+    "build": "npm run tsc && ts-node Dist/server.js",
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules --files -r dotenv/config src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
