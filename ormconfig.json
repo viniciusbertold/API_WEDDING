@@ -1,11 +1,11 @@
 {
     "type": "postgres",
-    "host": "localhost",
+    "host": "ec2-3-216-113-109.compute-1.amazonaws.com",
     "port": "5432",
-    "username": "postgres",
-    "password": "123456789",
-    "database": "WEDDING",
-    "migrations": ["./src/database/migrations/**.ts"],
+    "username": "hxhcaikcexgfti",
+    "password": "e4645ada183e7b294777444f28db73fe8617ca42032b2511f0b0c09f33cf8f63",
+    "database": "dat04mi3mktdgo",
+    "migrations": ["./src/database/migrations/**.ts", "./src/database/migrations/**.js"],
     "entities": ["./src/entities/**.ts"],
     "cli": {
         "migrationsDir": "./src/database/migrations"
