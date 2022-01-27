@@ -29,7 +29,8 @@
     "ts-node-dev": "^1.1.8"
   },
   "scripts": {
-    "build": "ts-node dist/server.js",
+    "tsc": "tsc",
+    "build": "npm run tsc && ts-node dist/server.js",
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules --files -r dotenv/config src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
